@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    background-color:  #AC8A50;
+    height: auto;
+}
+.card{
+    height:200px;
+    width:300px;
+    border-radius: 5%;
+}
+
+.cards-wrapper {
+    
+    margin-left: 20px;
+}

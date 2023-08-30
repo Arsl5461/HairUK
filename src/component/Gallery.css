@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .image-container {
+    display: flex;
+    width: 50%; /* Each half-image takes up 50% of the container */
+  }
+  
+  .half-image {
+    width: 50%; /* Each half-image takes up 50% of the image-container */
+    overflow: hidden; /* Hide any overflow from the images */
+  }
+  
+  .half-image img {
+    width: 200%; /* Set the image width to 200% to cover both halves */
+    transform: translateX(-50%); /* Center the image within its half */
+
+  }
+ 
+  
