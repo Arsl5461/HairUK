@@ -8,7 +8,7 @@ function Clinic() {
         <div className='container mt-5'>
         <div className='row'>
           <div className='col-lg-6'>
-          <img src="https://www.vincihairclinic.com/wp-content/webp-express/webp-images/uploads/2023/06/Matheus-Lisboa-Digital-Influencer-1536x1245.png.webp" width={"450px"} height={"400px"}/>
+          <img src="https://www.vincihairclinic.com/wp-content/webp-express/webp-images/uploads/2023/06/Matheus-Lisboa-Digital-Influencer-1536x1245.png.webp" className="img-fluid"/>
 
           </div>
           <div className='col-lg-6 mt-2 section-2'>
